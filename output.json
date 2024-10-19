@@ -1,0 +1,271 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "32.2.1",
+      "options": {
+        "input": [
+          "example-yarn-package"
+        ],
+        "--json-pp": "output.json",
+        "--license": true
+      },
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2024-10-12T153436.035354",
+      "end_timestamp": "2024-10-12T153519.262211",
+      "output_format_version": "3.2.0",
+      "duration": 43.22685694694519,
+      "message": null,
+      "errors": [],
+      "warnings": [],
+      "extra_data": {
+        "system_environment": {
+          "operating_system": "win",
+          "cpu_architecture": "64",
+          "platform": "Windows-10-10.0.19045-SP0",
+          "platform_version": "10.0.19045",
+          "python_version": "3.12.2 (tags/v3.12.2:6abddd9, Feb  6 2024, 21:26:36) [MSC v.1937 64 bit (AMD64)]"
+        },
+        "spdx_license_list_version": "3.24",
+        "files_count": 6
+      }
+    }
+  ],
+  "license_detections": [
+    {
+      "identifier": "bsd_new-3be3d96b-de79-5d03-4d9a-5166a036a0bf",
+      "license_expression": "bsd-new",
+      "license_expression_spdx": "BSD-3-Clause",
+      "detection_count": 1,
+      "reference_matches": [
+        {
+          "license_expression": "bsd-new",
+          "license_expression_spdx": "BSD-3-Clause",
+          "from_file": "example-yarn-package/LICENSE",
+          "start_line": 1,
+          "end_line": 1,
+          "matcher": "2-aho",
+          "score": 99.0,
+          "matched_length": 2,
+          "match_coverage": 100.0,
+          "rule_relevance": 99,
+          "rule_identifier": "bsd-new_26.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_26.RULE"
+        }
+      ]
+    },
+    {
+      "identifier": "bsd_simplified-2383ae10-5494-e069-46c2-e2d6cb56951f",
+      "license_expression": "bsd-simplified",
+      "license_expression_spdx": "BSD-2-Clause",
+      "detection_count": 2,
+      "reference_matches": [
+        {
+          "license_expression": "bsd-simplified",
+          "license_expression_spdx": "BSD-2-Clause",
+          "from_file": "example-yarn-package/package.json",
+          "start_line": 14,
+          "end_line": 14,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 4,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "bsd-simplified_136.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-simplified_136.RULE"
+        }
+      ]
+    },
+    {
+      "identifier": "bsd_simplified-a1deb97f-56cd-71ea-a95f-82477d400503",
+      "license_expression": "bsd-simplified",
+      "license_expression_spdx": "BSD-2-Clause",
+      "detection_count": 1,
+      "reference_matches": [
+        {
+          "license_expression": "bsd-simplified",
+          "license_expression_spdx": "BSD-2-Clause",
+          "from_file": "example-yarn-package/LICENSE",
+          "start_line": 7,
+          "end_line": 26,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 183,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "bsd-simplified.LICENSE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/bsd-simplified.LICENSE"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "example-yarn-package",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "example-yarn-package/index.js",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "example-yarn-package/LICENSE",
+      "type": "file",
+      "detected_license_expression": "bsd-new AND bsd-simplified",
+      "detected_license_expression_spdx": "BSD-3-Clause AND BSD-2-Clause",
+      "license_detections": [
+        {
+          "license_expression": "bsd-new",
+          "license_expression_spdx": "BSD-3-Clause",
+          "matches": [
+            {
+              "license_expression": "bsd-new",
+              "spdx_license_expression": "BSD-3-Clause",
+              "from_file": "example-yarn-package/LICENSE",
+              "start_line": 1,
+              "end_line": 1,
+              "matcher": "2-aho",
+              "score": 99.0,
+              "matched_length": 2,
+              "match_coverage": 100.0,
+              "rule_relevance": 99,
+              "rule_identifier": "bsd-new_26.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_26.RULE"
+            }
+          ],
+          "identifier": "bsd_new-3be3d96b-de79-5d03-4d9a-5166a036a0bf"
+        },
+        {
+          "license_expression": "bsd-simplified",
+          "license_expression_spdx": "BSD-2-Clause",
+          "matches": [
+            {
+              "license_expression": "bsd-simplified",
+              "spdx_license_expression": "BSD-2-Clause",
+              "from_file": "example-yarn-package/LICENSE",
+              "start_line": 7,
+              "end_line": 26,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 183,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "bsd-simplified.LICENSE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/bsd-simplified.LICENSE"
+            }
+          ],
+          "identifier": "bsd_simplified-a1deb97f-56cd-71ea-a95f-82477d400503"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 93.91,
+      "scan_errors": []
+    },
+    {
+      "path": "example-yarn-package/package.json",
+      "type": "file",
+      "detected_license_expression": "bsd-simplified",
+      "detected_license_expression_spdx": "BSD-2-Clause",
+      "license_detections": [
+        {
+          "license_expression": "bsd-simplified",
+          "license_expression_spdx": "BSD-2-Clause",
+          "matches": [
+            {
+              "license_expression": "bsd-simplified",
+              "spdx_license_expression": "BSD-2-Clause",
+              "from_file": "example-yarn-package/package.json",
+              "start_line": 14,
+              "end_line": 14,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 4,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "bsd-simplified_136.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-simplified_136.RULE"
+            }
+          ],
+          "identifier": "bsd_simplified-2383ae10-5494-e069-46c2-e2d6cb56951f"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 7.69,
+      "scan_errors": []
+    },
+    {
+      "path": "example-yarn-package/README.md",
+      "type": "file",
+      "detected_license_expression": "bsd-simplified",
+      "detected_license_expression_spdx": "BSD-2-Clause",
+      "license_detections": [
+        {
+          "license_expression": "bsd-simplified",
+          "license_expression_spdx": "BSD-2-Clause",
+          "matches": [
+            {
+              "license_expression": "bsd-simplified",
+              "spdx_license_expression": "BSD-2-Clause",
+              "from_file": "example-yarn-package/README.md",
+              "start_line": 22,
+              "end_line": 22,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 4,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "bsd-simplified_136.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-simplified_136.RULE"
+            }
+          ],
+          "identifier": "bsd_simplified-2383ae10-5494-e069-46c2-e2d6cb56951f"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 1.32,
+      "scan_errors": []
+    },
+    {
+      "path": "example-yarn-package/yarn.lock",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "example-yarn-package/__tests__",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "example-yarn-package/__tests__/area-rectangle-test.js",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    }
+  ]
+}
