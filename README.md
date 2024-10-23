@@ -10,13 +10,6 @@ This document outlines the steps and script used to scan for copyleft licenses i
 
 
 
-#### Prerequisites
-
-- Python environment set up (for running the `analyze.py` script).
-
-- Node.js environment set up (for managing dependencies).
-
-
 
 #### Setup and File Structure
 
