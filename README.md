@@ -27,7 +27,7 @@ This document outlines the steps and script used to scan for copyleft licenses i
 
 1. **Running the License Scan:**
 
-   - Use a license scanning tool (e.g., ScanCode) to analyze your project for any licenses in the dependencies.
+   - Use a license scanning tool ([ScanCode toolkit](https://github.com/aboutcode-org/scancode-toolkit/)) to analyze your project for any licenses in the dependencies.
 
    - The scan outputs a JSON file named `output.json` containing information about the detected licenses.
 
