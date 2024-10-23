@@ -17,7 +17,7 @@ This document outlines the steps and script used to scan for copyleft licenses i
 
    - Ensure that the `package.json` and `package-lock.json` files, which define the dependencies of your Node.js application, are placed in a directory named `packages`.
 
-2. **Analysis Script (`analyze.py`):**
+2. **Analysis Script (`analyze_license.py`):**
 
    - This script is used to parse the results of a license scanning tool (which outputs a file named `output.json`) and check for any copyleft licenses.
 
