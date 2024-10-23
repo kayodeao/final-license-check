@@ -35,7 +35,7 @@ This document outlines the steps and script used to scan for copyleft licenses i
 
 2. **Analyzing the Output:**
 
-   - The `analyze.py` script parses the `output.json` file to identify if any detected licenses match a list of known copyleft licenses.
+   - The `analyze_license.py` script parses the `output.json` file to identify if any detected licenses match a list of known copyleft licenses.
 
    - If a copyleft license is detected, the script will print out details of the licenses and fail the pipeline by exiting with a non-zero status code.
 
@@ -45,7 +45,7 @@ This document outlines the steps and script used to scan for copyleft licenses i
 
 
 
-### `analyze.py` Script Details
+### `analyze_license.py` Script Details
 
 
 
