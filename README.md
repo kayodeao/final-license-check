@@ -2,7 +2,7 @@
 
 
 
-This document outlines the steps and script used to scan for copyleft licenses in a Node.js project using Python. It includes setup instructions, file organization, and an explanation of the analysis script `analyze.py`.
+This document outlines the steps and script used to scan for copyleft licenses in a Node.js project using Python. It includes setup instructions, file organization, and an explanation of the analysis script `analyze_license.py`.
 
 
 
